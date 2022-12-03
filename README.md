@@ -1,6 +1,6 @@
 ---
-title: Ood Detection
-emoji: 🐠
+title: OOD Detection
+emoji: 🧐
 colorFrom: purple
 colorTo: purple
 sdk: gradio
