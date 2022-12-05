@@ -10,4 +10,30 @@ pinned: true
 license: mit
 ---
 
-# OOD Detection
+# OOD Detection Demo
+
+Out-of-distribution (OOD) detection is an essential safety measure for machine learning models. This app demonstrates how these methods can be useful in determining wether the inputs of a ResNet-50 model trained on ImageNet-1K can be trusted by the model.
+
+This demo is [online](https://huggingface.co/spaces/edadaltocg/ood-detection) at `https://huggingface.co/spaces/edadaltocg/ood-detection`
+
+## Running Gradio app locally:
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the app:
+
+```bash
+python app.py
+```
+
+3. Open the app in your browser at `http://localhost:7860`.
+
+## Methods implemented
+
+- [ ] [Mahalanobis Distance](https://arxiv.org/abs/1807.03888)
+- [x] [Maximum Softmax Probability](https://arxiv.org/abs/1610.02136)
+- [x] [Energy Based Out-of-Distribution Detection](https://arxiv.org/abs/2010.03759)
