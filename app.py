@@ -117,7 +117,7 @@ def main():
         allow_flagging="never",
         theme="default",
         title="OOD Detection 🧐",
-        description="Out-of-distribution (OOD) detection is an essential safety measure for machine learning models. This app demonstrates how these methods can be useful in determining wether the inputs of a ResNet-50 model trained on ImageNet-1K can be trusted by the model. Enjoy the demo!",
+        description="Out-of-distribution (OOD) detection is an essential safety measure for machine learning models. This app demonstrates how these methods can be useful. They try to determine wether we can trust the predictions of a ResNet-50 model trained on ImageNet-1K. Enjoy the demo!",
     )
     interface.launch(
         server_port=7860,
