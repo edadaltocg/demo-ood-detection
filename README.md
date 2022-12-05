@@ -10,6 +10,7 @@ pinned: true
 license: mit
 ---
 
+<<<<<<< HEAD
 # OOD Detection Demo
 
 Out-of-distribution (OOD) detection is an essential safety measure for machine learning models. This app demonstrates how these methods can be useful in determining wether the inputs of a ResNet-50 model trained on ImageNet-1K can be trusted by the model.
@@ -37,3 +38,6 @@ python app.py
 - [ ] [Mahalanobis Distance](https://arxiv.org/abs/1807.03888)
 - [x] [Maximum Softmax Probability](https://arxiv.org/abs/1610.02136)
 - [x] [Energy Based Out-of-Distribution Detection](https://arxiv.org/abs/2010.03759)
+=======
+# OOD Detection
+>>>>>>> 45fabfa417588e2aeb366695552bd6c8de1e73cc
