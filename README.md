@@ -10,7 +10,7 @@ pinned: true
 license: mit
 ---
 
-# OOD Detection Demo
+# OOD Detection Demo 🧐
 
 Out-of-distribution (OOD) detection is an essential safety measure for machine learning models. This app demonstrates how these methods can be useful. They try to determine wether we can trust the predictions of a ResNet-50 model trained on ImageNet-1K.
 
