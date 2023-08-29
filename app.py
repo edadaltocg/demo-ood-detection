@@ -25,7 +25,7 @@ TOPK = 3
 
 # load model
 print("Loading model...")
-model = timm.create_model("resnet50.tv2_in1k", pretrained=True, checkpoint_path="resnet50.tv2_in1k.bin")
+model = timm.create_model("resnet50.tv2_in1k", pretrained=True)
 model.to(device)
 model.eval()
 

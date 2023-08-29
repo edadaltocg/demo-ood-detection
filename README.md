@@ -16,7 +16,7 @@ Out-of-distribution (OOD) detection is an essential safety measure for machine l
 
 This demo is [online](https://huggingface.co/spaces/edadaltocg/ood-detection) at `https://huggingface.co/spaces/edadaltocg/ood-detection`
 
-## Running Gradio app locally:
+## Running Gradio app locally
 
 1. Install dependencies:
 
@@ -31,9 +31,3 @@ python app.py
 ```
 
 3. Open the app in your browser at `http://localhost:7860`.
-
-## Methods implemented
-
-- [ ] [Mahalanobis Distance](https://arxiv.org/abs/1807.03888)
-- [x] [Maximum Softmax Probability](https://arxiv.org/abs/1610.02136)
-- [x] [Energy Based Out-of-Distribution Detection](https://arxiv.org/abs/2010.03759)
