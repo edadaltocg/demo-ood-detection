@@ -52,7 +52,7 @@ feature_extractor = create_feature_extractor(model, features_names)
 centroids = torch.load("centroids_resnet50.tv2_in1k_igeood_logits.pt")
 # OOD detector thresholds
 msp_threshold = 0.3796
-energy_threshold = 0.3781
+energy_threshold = 8
 igeood_threshold = 2.4984
 
 
