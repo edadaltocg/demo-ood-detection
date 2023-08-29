@@ -47,7 +47,9 @@ features_names = [penultimate_features_key, logits_key]
 
 feature_extractor = create_feature_extractor(model, features_names)
 
-centroids = torch.from_numpy(pickle.load(open("centroids_resnet50.tv2_in1k_igeood_logits.pkl", "rb"))).to(device)
+
+# load centroids
+centroids = torch.load("centroids_resnet50.tv2_in1k_igeood_logits.pt")
 # OOD detector thresholds
 msp_threshold = 0.3796
 energy_threshold = 0.3781
